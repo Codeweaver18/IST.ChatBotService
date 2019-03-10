@@ -30,8 +30,8 @@ namespace IST.ChatBotService.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-            services.AddScoped<HttpWeaverClient>();
-            services.AddTransient<iDialogFlow, DialogFlowService>();
+            services.AddTransient<HttpWeaverClient>();
+            services.AddTransient<IIDialogFlow, DialogFlowService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

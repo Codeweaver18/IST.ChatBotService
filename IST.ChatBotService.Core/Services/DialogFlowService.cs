@@ -8,7 +8,7 @@ using IST.ChatBotService.Core.utilities;
 
 namespace IST.ChatBotService.Core.Services
 {
-    public class DialogFlowService:iDialogFlow
+    public class DialogFlowService : IIDialogFlow
     {
         private readonly HttpWeaverClient _http;
         public DialogFlowService(HttpWeaverClient http)
@@ -18,10 +18,10 @@ namespace IST.ChatBotService.Core.Services
         }
 
         public async Task<DialogFlowResponse> SendMessage(DialogFlowRequest request)
-         {
-            
+        {
+
             DialogFlowResponse response = new DialogFlowResponse();
-            response = await _http.PostJSONAsync<DialogFlowResponse>("https://api.dialogflow.com/v1/query?v=20150910", headers:new DialogFlowHeader());
+            response = await _http.PostJSONAsync<DialogFlowResponse>("https://api.dialogflow.com/v1/query?v=20150910", request, headers: new DialogFlowHeader());
 
             return response;
 

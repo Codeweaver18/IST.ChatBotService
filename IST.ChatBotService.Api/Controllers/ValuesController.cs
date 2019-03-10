@@ -14,7 +14,6 @@ namespace IST.ChatBotService.Api.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        private readonly iDialogFlow<ValuesController> _DialogFlow;
 
         // GET api/values
         [HttpGet]
