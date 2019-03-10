@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="request\" />
+    <Folder Include="response\" />
+    <Folder Include="Abstract\" />
+    <Folder Include="interfaces\" />
+    <Folder Include="utilities\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Twilio" Version="5.27.1" />
+    <PackageReference Include="Twilio.AspNet.Core" Version="5.20.1" />
+    <PackageReference Include="Flurl" Version="2.8.1" />
+    <PackageReference Include="Flurl.Http" Version="2.4.1" />
+  </ItemGroup>
+</Project>

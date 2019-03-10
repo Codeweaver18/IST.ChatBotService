@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IST.ChatBotService.Api", "IST.ChatBotService.Api\IST.ChatBotService.Api.csproj", "{4FD0D63C-1FDC-4220-A58F-D2C8A5456C07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IST.ChatBotService.Core", "IST.ChatBotService.Core\IST.ChatBotService.Core.csproj", "{83F9096F-112F-45EE-811A-1A1BEEF05507}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{85CF377A-2BAE-4B37-BF96-6794AA91A281}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FD0D63C-1FDC-4220-A58F-D2C8A5456C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FD0D63C-1FDC-4220-A58F-D2C8A5456C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FD0D63C-1FDC-4220-A58F-D2C8A5456C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FD0D63C-1FDC-4220-A58F-D2C8A5456C07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83F9096F-112F-45EE-811A-1A1BEEF05507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83F9096F-112F-45EE-811A-1A1BEEF05507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83F9096F-112F-45EE-811A-1A1BEEF05507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83F9096F-112F-45EE-811A-1A1BEEF05507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85CF377A-2BAE-4B37-BF96-6794AA91A281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85CF377A-2BAE-4B37-BF96-6794AA91A281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85CF377A-2BAE-4B37-BF96-6794AA91A281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85CF377A-2BAE-4B37-BF96-6794AA91A281}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

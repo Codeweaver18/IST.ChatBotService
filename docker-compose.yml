@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  ist.chatbotservice.api:
+    image: ${DOCKER_REGISTRY-}istchatbotservice
+    build:
+      context: .
+      dockerfile: IST.ChatBotService.Api/Dockerfile
